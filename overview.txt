@@ -1,0 +1,28 @@
+https://vincentarelbundock.github.io/Rdatasets/doc/AER/TravelMode.html
+
+What is the most significant factor when you choose travel mode for a long distance?
+    -in case of travel between Sydney and Melbourne, Australia.
+    -873km on the roads
+    -713km for straight distance
+
+-210 individuals answered
+
+-travel mode
+air / train / bus / car
+
+-factors on data
+1. Terminal Waiting Time
+2. Travel Time in the Vehicle
+3. Vehicle Cost Component
+4. Generalized Cost Measure
+5. Household Income
+
+-Time Loss / Cost
+Time Loss : factor 1,2
+    factor1 + factor2
+Cost : factor 3,4,5
+    (factor3 + factor4) / factor5
+
+-Visualizing
+# pie chart : overall proportions for chosen mode
+# multi scatter plot : time loss-cost (4 of each mode)
